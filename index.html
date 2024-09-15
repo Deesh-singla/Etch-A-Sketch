@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 480px;
+            height: 480px;
+            
+        }
+        #container div{
+            height: 30px;
+            width:30px;
+            box-sizing: border-box;
+            border:1px solid black;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <label for="in">enter no. of squares you want per side</label>
+    <input type="text" id="in">
+    <button id="index">click me</button><br><br>
+    <div id="container"></div><br>
+    <button id="clear">Clear</button>
+    <button id="eraser">Eraser</button>
+    <button id="color">Randomize color</button>
+    <button id="rgb">RGB</button>
+    <button id="opacity">Opacity</button>
+    <script src="index.js"></script>
+</body>
+</html>
